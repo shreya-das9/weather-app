@@ -12,6 +12,7 @@ document.getElementById('search-btn').addEventListener('click', function() {
     fetch(url)
         .then(response => {
             if (!response.ok) {
+                console.log(response)
                 console.error('Network response was not ok:', response.status, response.statusText);
                 throw new Error('Network response was not ok');
             }
