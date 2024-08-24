@@ -1,0 +1,95 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cornflowerblue;
+    height: 80px;
+}
+h1{
+    text-align: center;
+}
+#get{
+    margin-top: 175px;
+    margin-left: 40%;
+}
+.box{
+    margin-top: 100px;
+    margin-left: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 175px;
+    border-radius: 2rem;
+    padding-left: 60px;
+}
+.search{
+    padding-left: 10%;
+    font-size: large;
+}
+.footer{
+    margin-top: 15%;
+    width: 900px;
+    height: 80px;
+    background-color: black;
+    color: blanchedalmond;
+    justify-content: center;
+    padding-left: 650px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Prevents elements from overflowing */
+}
+
+body {
+    background-color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    text-align: center; /* Centers all text by default */
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+img {
+    margin-top: 25px;
+}
+
+#get {
+    margin: 50px auto;
+    width: fit-content;
+}
+
+.search {
+    height: 50px;
+    width: 200px;
+    border-radius: 1rem;
+    padding-left: 10px;
+    font-size: large;
+}
+
+.box {
+    margin: 50px auto;
+    background-color: whitesmoke;
+    width: 80%;
+    max-width: 500px; /* Ensures it doesn't get too wide */
+    padding: 20px;
+    border-radius: 2rem;
+    text-align: left;
+}
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    margin-top: 7.9%;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px 0;
+}
