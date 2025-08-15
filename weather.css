@@ -38,6 +38,16 @@ h1{
     justify-content: center;
     padding-left: 650px;
 } */
+#get {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Optional: adds space between input and button */
+}
+.search {
+    height: 36px;
+    font-size: 16px;
+    padding: 0 10px;
+}
 
 * {
     margin: 0;
@@ -72,7 +82,17 @@ img {
     padding-left: 10px;
     font-size: large;
 }
-
+.search-btn {
+    height: 36px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    background: #f0f0f0;
+    cursor: pointer;
+}
 .box {
     margin: 50px auto;
     background-color: whitesmoke;
